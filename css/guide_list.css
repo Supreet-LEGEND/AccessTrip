@@ -27,12 +27,15 @@ div ul li div {
 }
 
 .img-section{
-    margin-right: 30px;
-}
-
-.rating{
+    margin-right: 40px;
 }
 
 /* Styles for the profile footer */
-.img-footer {
+.img-footer p {
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+a.chat , a.phone{
+    text-decoration: none;
+    color: rgb(79, 197, 144);
 }
