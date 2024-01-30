@@ -4,20 +4,27 @@
     border-radius: 10px; /* Slightly curved border */
     padding: 20px; /* Space inside the container */
     margin: auto; /* Center the container */
+    font-family: Arial, sans-serif;
 }
 
 /* Styles for each profile */
 .list-items {
-    display: flex; /* Use Flexbox */
+    background-color: rgba(237, 195, 97, 0.5);
+    border-radius: 10px;
+    display: flex; 
+    justify-content: space-around;
     align-items: start; /* Align items to the start of the cross axis */
+    padding-left: 15px;
+    padding-top: 15px;
     margin-bottom: 20px; /* Space between profiles */
 }
 
 /* Styles for the profile image */
 .profile-img {
-    width: 100px; /* Width of the image */
-    height: 100px; /* Height of the image */
+    width: 150px; /* Width of the image */
+    height: 150px; /* Height of the image */
     object-fit: cover; /* Resize the image to fill the dimensions */
+    margin-bottom: 20px;
 }
 
 /* Styles for the profile details */
@@ -26,16 +33,61 @@ div ul li div {
     /* Allow the details to take up the remaining space */
 }
 
+.contact-div{
+    height: max-content;
+}
+
+.contact-paragraph{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .img-section{
-    margin-right: 40px;
+    margin-right: 15px;
 }
 
 /* Styles for the profile footer */
 .img-footer p {
-    white-space: nowrap; /* Prevent text from wrapping */
+    white-space: nowrap;
+    color: grey;
+    align-items: center;
+    /* text-align: center; */
+    padding-left: 20px;
 }
 
 a.chat , a.phone{
     text-decoration: none;
-    color: rgb(79, 197, 144);
+    white-space: nowrap;
+    color: grey;
+}
+
+.chat{
+    margin-right: 40px;
+}
+
+a.chat:hover , a.phone:hover{
+    color: rgb(79, 152, 197);
+}
+
+.name{
+    color: rgb(233, 171, 101);
+    font-size: 3rem;
+}
+
+.bio-heading , .contact-heading{
+    color: rgb(128, 92, 34);
+
+}
+
+.bio-para{
+    color: grey;
+}
+
+.chat i , .phone i {
+    margin-right: 5px;
+}
+
+.icon-p{
+    font-weight: bold;   
 }
