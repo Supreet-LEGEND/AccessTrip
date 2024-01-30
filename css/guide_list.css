@@ -16,6 +16,7 @@
     align-items: start; /* Align items to the start of the cross axis */
     padding-left: 15px;
     padding-top: 15px;
+    padding-right: 15px;
     margin-bottom: 20px; /* Space between profiles */
 }
 
