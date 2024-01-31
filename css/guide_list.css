@@ -26,6 +26,11 @@
     margin-bottom: 20px; /* Space between profiles */
 }
 
+ul a{
+    text-decoration: none;
+
+}
+
 /* Styles for the profile image */
 .profile-img {
 

@@ -118,6 +118,18 @@
     font-size: 20px;
     font-family: "JetBrains Mono";
 }
+
+#planning-a , #login-a {
+    text-decoration: none;
+    background-color: coral;
+    color: black;
+}
+
+#register-a{
+    text-decoration: none;
+    color: black;
+}
+
 #box3
 {
     display: flex;
