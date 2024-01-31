@@ -5,10 +5,15 @@
     padding: 20px; /* Space inside the container */
     margin: auto; /* Center the container */
     font-family: Arial, sans-serif;
+
 }
 
 /* Styles for each profile */
 .list-items {
+
+    display: flex; /* Use Flexbox */
+    align-items: start; /* Align items to the start of the cross axis */
+
     background-color: rgba(237, 195, 97, 0.5);
     border-radius: 10px;
     display: flex; 
@@ -17,15 +22,22 @@
     padding-left: 15px;
     padding-top: 15px;
     padding-right: 15px;
+
     margin-bottom: 20px; /* Space between profiles */
 }
 
 /* Styles for the profile image */
 .profile-img {
+
+    width: 100px; /* Width of the image */
+    height: 100px; /* Height of the image */
+    object-fit: cover; /* Resize the image to fill the dimensions */
+
     width: 150px; /* Width of the image */
     height: 150px; /* Height of the image */
     object-fit: cover; /* Resize the image to fill the dimensions */
     margin-bottom: 20px;
+
 }
 
 /* Styles for the profile details */
@@ -33,6 +45,17 @@ div ul li div {
     flex-grow: 1; 
     /* Allow the details to take up the remaining space */
 }
+
+
+.img-section{
+    margin-right: 30px;
+}
+
+.rating{
+}
+
+/* Styles for the profile footer */
+.img-footer {
 
 .contact-div{
     height: max-content;
