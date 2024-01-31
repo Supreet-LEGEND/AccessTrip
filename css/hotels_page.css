@@ -36,7 +36,7 @@ body {
     color: black; /* Light shade for contrast */
     font-size: 1.2em; /* Slightly larger font size */
     border-bottom: 1px solid grey; /* Blue border at the bottom */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.15); /* Box shadow for depth */
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.15); Box shadow for depth */
 }
 
 .hotel-grid {
