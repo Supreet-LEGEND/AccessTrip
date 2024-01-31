@@ -1,25 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans:ital,wght@1,600;1,700&family=Roboto+Slab:wght@700&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans:ital,wght@1,600;1,700&family=Roboto+Slab:wght@700&display=swap');
-
 *{
-    margin:0;
-    padding:0;
+    margin:10px;
+    padding: 0;;
     box-sizing: border-box;
     font-family: 'Agbalumo', system-ui;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto Slab', serif; 
 }
-:root{
-    --primary-color:#c6c3c3;
-    --second-color:#ffffff;
-    --black-color:#000000;
-}
+
+
 body{
-
-    background-image: url(background\ 3.jpeg);
-    background-image: url("../img/background\ 1.jpeg");
-
+    background-color: #FFF8EF;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,41 +18,41 @@ body{
 }
 a{
     text-decoration: none;
-    color: #ffffff;
+    color:#000000;
 }
 a:hover{
     text-decoration: underline;
-}
+ }
 .wrapper{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: rgba(0,0,0,0.2);
-}
+    min-height: 20vh;
+    
+ }
 .login_box{
     position: relative;
     width: 450px;
     backdrop-filter: blur(25px);
-    border: 2px solid #c6c3c3;
-    border-radius: 15px;
+    /* border: 2px solid #c6c3c3;
+    border-radius: 15px; */
     padding: 7.5em 2.5em 4em 2.5em;
-    color: #ffffff;
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+    color: #0f0d0d;
+    /* box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.2); */
 }
 .login-header{
     position: absolute;
     top:0;
     left: 50%;
-    transform: translate(-50%);
+     transform: translate(-50%); 
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #c6c3c3;
-    width: 140px;
+    width: 300px;
     height: 70px;
-    border-radius: 0 0 10px 10px ;
+    border-radius: 0 0 5px 5px ;
 }
 .login-header span{
     font-size: 30px;
@@ -71,29 +62,29 @@ a:hover{
     position: relative;
     display: flex;
     flex-direction: column;
-    margin:20px 0;
+    margin:2px 0;
+    padding-bottom:5px; 
+    right: 50%;
 }
 .input-field{
-    width: 100%;
-    height: 55px;
-    font-size: 16px;
+    width: 200%;
+    height: 70px;
+    font-size: 20px;
     background: transparent;
-    color: #ffffff;
+    color: #0b0b0b;
     padding-inline: 20px 50px;
     border: 2px solid #c6c3c3;
-    border-radius: 30px;
+    border-radius: 10px;
     outline: none;
 }
-#user{
-    margin-bottom: 10px;
-}
-.label{
+
+ .label{
     position: absolute;
-    top: 15px ;
+    top: 3px ;
     left : 20px;
-    transition: .2s;
+    /* transition: .2s; */
 }
-.input-field:focus~.label,
+/* .input-field:focus~.label,
 .input-field:valid~.label{
     position: absolute;
     top:-10px;
@@ -102,46 +93,28 @@ a:hover{
     background-color: #c6c3c3;
     border-radius: 30px;
     color: #000000;
-    padding:0 10px;
-}
-.icon{
-    position: absolute;
-    top: 20px;
-    right: 25px;
-}
-.input_box{
-    display: flex;
-    justify-content: space-between;
-    font-size: 15px;
-}
-.input-submit{
-    width: 100%;
-    height: 50px;
-    background: white;
-    font-size: 16px;
-    font-weight: 500;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .5s;
-}
-.input-submit:hover{
-    background: #9ceaee;
-}
-.register{
-    text-align: center;
-}
-.register a{
-    font-weight: 500;
-}
- @media only screen and (max-width: 564px){
+    padding:0 10px; } */ 
+@media only screen and (max-width: 564px){
     .wrapper{
         padding: 20px;
     }
     .login_box{
         padding: 7.5em 2.5em 4em 2.5em;
     }
-
-}
 } 
-
+#submit{
+    border: none;
+    padding: 10px,20px;
+    background-color: rgb(230, 134, 43);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    transform: translate(10px, 10px);
+    height: 50px;
+}
+#submit:hover{
+    background: #9ceaee;} 
