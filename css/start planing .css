@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans:ital,wght@1,600;1,700&family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    margin:10px;
+    padding: 0;;
+    box-sizing: border-box;
+    font-family: 'Agbalumo', system-ui;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif; 
+}
+body{
+     /* background-image: url(background\ 4.jpeg);  */
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-color:  #FFF8EF;
+    
+}
+a{
+    text-decoration: none;
+    color: #0d0c0c;
+}
+a:hover{
+    text-decoration: underline;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+     /* background-color: #fff9f933;  */
+}
+.login_box{
+    position: relative;
+    width: 450px;
+     backdrop-filter: blur(20px);
+    /* border: 2px solid #c6c3c3; */
+    /* border-radius: 15px;*/
+    padding: 7.5em 2.5em 4em 2.5em;  
+     color: #141313; 
+    
+}
+.login-header{
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#ffffff;
+    width: 600px;
+    height: 100px;
+    border-radius: 0 0 5px 5px ;
+}
+.login-header span{
+    font-size: 40px;
+    color: #000000;
+}
+.input_box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin:2px 0;
+    padding-bottom:5px; 
+    right: 50%;
+}
+.input-field{
+    width: 200%;
+    height: 70px; 
+    font-size: 20px;
+    background: transparent;
+    color: #0b0b0b;
+    padding-inline: 20px 50px;
+    border: 2px solid #c6c3c3;
+    border-radius: 10px;
+    outline: none;
+}
+.label{
+    position: absolute;
+    top: 3px ;
+    left : 20px;
+   
+}
+
+
+@media only screen and (max-width: 564px){
+    .wrapper{
+        padding: 20px;
+    }
+    .login_box{
+        padding: 7.5em 2.5em 4em 2.5em;
+    }
+}  
+#submit{
+    border: none;
+    padding: 10px,20px;
+    background-color: rgb(161, 161, 240);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align:center;
+    width: 200px;
+    cursor: pointer;
+    height: 50px;
+    right: 70%;
+    transform: translate(80%);
+}
+#submit:hover{
+    background: #9ceaee;} 
