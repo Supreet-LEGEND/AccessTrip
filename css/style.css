@@ -164,9 +164,9 @@
 #box4_1
 {
     height: 380px;
-    width: 20%;
-    background-color: lightgoldenrodyellow;
+    width: 22%;
     display: inline-block;
+    margin-right: 0px;
 }
 #box5
 {
@@ -186,9 +186,9 @@
 #box5_1
 {
     height: 380px;
-    width: 20%;
-    background-color: lightgoldenrodyellow;
+    width: 22%;
     display: inline-block;
+    margin-right: 0px;
 }
 #box6
 {
@@ -339,13 +339,12 @@
 {
     height: 100%;
     width: 30%;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 #box8_img
 {
     height: 100%;
     width: 30%;
-    padding-top: 50px;
 }
 #footer_elements
 {
