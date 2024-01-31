@@ -135,3 +135,10 @@ a:hover{
     border-radius: 5px;
     text-align: center;
 } */
+#f{
+    background-color: transparent;
+    border-radius: 7px;
+}
+#f a{
+    color: #ffffff;
+}
